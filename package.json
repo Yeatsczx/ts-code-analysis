@@ -1,0 +1,30 @@
+{
+  "name": "ts-code-analysis",
+  "version": "1.0.0",
+  "description": "a code dependency analysis tool for ts",
+  "main": "./api/index.js",
+  "module": "./api/index.js",
+  "bin": {
+    "ca": "./cli/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yeatsczx/ts-code-analysis"
+  },
+  "author": "engineerczx@foxmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "glob": "^7.1.6",
+    "js-md5": "^0.7.3",
+    "moment": "^2.29.4",
+    "ora": "^5.1.0",
+    "single-line-log": "^1.1.2",
+    "typescript": "4.7.4"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 4.0.0"
+  }
+}
