@@ -1,22 +1,20 @@
-<<<<<<< HEAD
-
 # ts-code-analysis
 
 # A code dependency analysis tool for ts
 
-[![npm version](https://badge.fury.io/js/code-analysis-ts.svg)](https://www.npmjs.com/package/ts-code-analysis)
-[![Downloads](https://img.shields.io/npm/dm/code-analysis-ts.svg)](https://www.npmjs.com/package/ts-code-analysis)
+[![npm version](https://badge.fury.io/js/ts-code-analysis.svg)](https://www.npmjs.com/package/ts-code-analysis)
+[![Downloads](https://img.shields.io/npm/dm/ts-code-analysis.svg)](https://www.npmjs.com/package/ts-code-analysis)
 
-# code-analysis-ts
+# ts-code-analysis
 
-[code-analysis-ts](https://www.npmjs.com/package/ts-code-analysis)是一款前端代码分析工具，用于实现代码调用分析报告，支持 CLI/API 两种使用模式，代码评分，代码告警，“脏调用”拦截，API 趋势变化分析等应用场景。
+[ts-code-analysis](https://www.npmjs.com/package/ts-code-analysis)是一款前端代码分析工具，用于实现代码调用分析报告，支持 CLI/API 两种使用模式，代码评分，代码告警，“脏调用”拦截，API 趋势变化分析等应用场景。
 
 ## Install
 
 ```javascript
-npm install code-analysis-ts --save-dev
+npm install ts-code-analysis --save-dev
 // or
-yarn add code-analysis-ts --dev
+yarn add ts-code-analysis --dev
 ```
 
 ## Config
@@ -63,7 +61,7 @@ $ yarn analysis
 ### 2. api
 
 ```javascript
-const analysis = require("code-analysis-ts"); // 代码分析包
+const analysis = require("ts-code-analysis"); // 代码分析包
 
 async function scan() {
   try {

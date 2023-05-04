@@ -8,6 +8,7 @@ const { REPORTDEFAULTDIR } = require(path.join(__dirname, '../lib/constant'));  
 const { rmDir } = require(path.join(__dirname, '../lib/file'));                          // 文件工具
 const codeAnalysis = require(path.join(__dirname,'../lib/index'));                              // 分析入口
 
+// 配置命令
 program
     .command('analysis')
     .description('analysis code and echo report')
